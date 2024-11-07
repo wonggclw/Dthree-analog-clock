@@ -1,5 +1,4 @@
 import { useState, useEffect, FC } from "react";
-import * as d3 from "d3";
 
 interface CircleProps {
   color: string;
@@ -41,7 +40,7 @@ const CircleClock: FC<CircleProps> = ({ color, screenWidth, screenHeight }) => {
     };
   }, []);
 
-  return <div id="container">If you can read this, you can read!</div>;
+  return <div>If you can read this, you can read!</div>;
 
   function drawClock() {
     // stuff here!
